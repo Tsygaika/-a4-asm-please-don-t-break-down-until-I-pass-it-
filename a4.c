@@ -54,7 +54,7 @@ void main() {
 				lea esi, [A]; // записываем адрес массива А 
 				lea edi, [B]; // записываем адрес массива В
 				lea edx, [C]; // записываем адрес массива С
-				mov [k], 0; // k = 0 (количество таких пар)
+				mov k, 0; // k = 0 (количество таких пар)
 				mov ecx, 16; // ecx = 16
 
 			CYCLE:
@@ -139,7 +139,7 @@ void main() {
 				lea esi, [A]; 
 				lea edi, [B]; 
 				lea edx, [C]; 
-				mov [k], 0; 
+				mov k, 0; 
 				mov ecx, 16; 
 
 			CYCLE2:
